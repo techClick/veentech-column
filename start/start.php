@@ -4,8 +4,8 @@
   // header ("Access-Control-Expose-Headers: Content-Length, X-JSON");
   // header ("Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS");
   // header("Content-Type: application/json");
-  require_once($_SERVER['DOCUMENT_ROOT'].'/HRA01/globals.php');
-  require_once($_SERVER['DOCUMENT_ROOT'].'/HRA01/dbconnect.php');
+  require_once($_SERVER['DOCUMENT_ROOT'].'/Veentech/globals.php');
+  require_once($_SERVER['DOCUMENT_ROOT'].'/Veentech/dbconnect.php');
 
   $message = json_decode(file_get_contents('php://input'), true);
   $sql = "INSERT INTO VeentechStart ( name, email, phone, type, country ) VALUES ( '".$message['name']."'

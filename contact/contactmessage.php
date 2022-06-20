@@ -1,8 +1,8 @@
 <?php
   header ("Access-Control-Allow-Headers: *");
   header ("Access-Control-Allow-Origin: *");
-  require_once($_SERVER['DOCUMENT_ROOT'].'/HRA01/globals.php');
-  require_once($_SERVER['DOCUMENT_ROOT'].'/HRA01/dbconnect.php');
+  require_once($_SERVER['DOCUMENT_ROOT'].'/Veentech/globals.php');
+  require_once($_SERVER['DOCUMENT_ROOT'].'/Veentech/dbconnect.php');
 
   $message = json_decode(file_get_contents('php://input'), true);
   $sql = "INSERT INTO VeentechContact ( company, email, subject, message ) VALUES ( '".$message['company']."'
