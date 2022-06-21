@@ -9,6 +9,6 @@
     "status" => "error",
     "data" => 'Failed to load DB',
   ));
-  $companyEmail = 'hr@topdevafrica.com';
-  $emails = 'Ikechi-CEO <'.$companyEmail.'>';// 'Ikechi-Personal <ikechianya1@gmail.com>, Ikechi-CEO <'.$companyEmail.'>';
+  $companyEmail = 'cto@zavotech.com';
+  $emails = 'Ikechi-CTO <'.$companyEmail.'>';// 'Ikechi-Personal <ikechianya1@gmail.com>, Ikechi-CEO <'.$companyEmail.'>';
 ?>
